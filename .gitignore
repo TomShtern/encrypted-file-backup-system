@@ -88,3 +88,18 @@ node_modules/
 
 # Yarn Integrity file
 .yarn-integrity
+
+# Project-specific
+# Server storage (except .gitkeep)
+server/storage/*
+!server/storage/.gitkeep
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Test output
+test_results/
+*.test
