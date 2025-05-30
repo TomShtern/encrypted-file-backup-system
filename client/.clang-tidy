@@ -1,0 +1,5 @@
+---
+# Disable clang-tidy for this project to avoid MSVC/Clang toolchain conflicts
+Checks: '-*'
+HeaderFilterRegex: ''
+FormatStyle: none
