@@ -1,0 +1,2 @@
+# This file ensures the storage directory is preserved in git while keeping it empty
+# The storage directory is used by the server to store backup files

@@ -4,8 +4,7 @@
             "name": "MSVC",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/client/include",
-                "${vcpkgRoot}/x64-windows/include"
+                "${workspaceFolder}/client/include"
             ],
             "defines": [
                 "_WIN32",
